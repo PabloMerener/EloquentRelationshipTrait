@@ -2,6 +2,7 @@
 
 Finally with (new User)->getRelationships() or User::getRelationships() you will get:
 
+```
 [
  "notifications" => [
    "MorphMany",
@@ -24,3 +25,4 @@ Finally with (new User)->getRelationships() or User::getRelationships() you will
    "Laravel\Passport\Token",
  ],
 ]
+```
