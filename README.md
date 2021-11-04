@@ -2,7 +2,7 @@
 
 Get eloquent relationships in your Laravel projects.
 
-Implement EloquentRelationshipTrait in your models:
+Implementing EloquentRelationshipTrait in User model
 ```
 <?php
 
@@ -19,7 +19,7 @@ class User extends Authenticatable
     use Notifiable, HasApiTokens, EloquentRelationshipTrait;
 ```
 
-Implementing EloquentRelationshipTrait in User model
+EloquentRelationshipTrait:
 ```
 <?php
 
